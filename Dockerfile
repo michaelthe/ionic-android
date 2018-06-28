@@ -26,7 +26,7 @@ RUN $ANDROID_HOME/tools/bin/sdkmanager --licenses > android-licences.log
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
-RUN apt-get install --yes nodejs gradle
+RUN apt-get install --yes nodejs gradle make
 
 RUN mkdir /app
 
